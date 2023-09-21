@@ -158,7 +158,7 @@ input[type=submit]{
   border-radius: 10px;
   position: relative;
   left: 2.5em;
-  bottom: 1.5em;
+  bottom: 1.7em;
 
 }
 
@@ -172,7 +172,7 @@ input[type=submit]{
 .status{
   font-weight: bold;
   position: relative;
-  bottom: 8em;
+  bottom: 7em;
   padding-left: 15px;
 }
 
@@ -190,7 +190,8 @@ input[type=submit]{
 h4{
   font-size: 1.2em;
   padding-left: 15px;
-  margin-top: 2em;
+  margin-top: 0em;
+  padding-bottom: 32px;
 }
 
 h5{
@@ -280,13 +281,14 @@ h5{
   }
 
   .status, .material-symbols-outlined {
-    font-size: 0.8em;
-    margin-top: 18px;
+    font-size: 1em;
+    margin-top: 24px;
     }
 
   .temp{
     font-size: 2.5em;
     bottom: 70px;
+    left: 40px;
   }
 
   .info_icon1{
@@ -310,6 +312,11 @@ h5{
   img{
     width: 18em;
     height: 15em;
+  }
+
+  h4{
+    margin-bottom: 0px;
+  
   }
 
 }
